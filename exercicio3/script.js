@@ -1,18 +1,19 @@
-function verificarNacionalidade(nacionalidade) {
+function verificarNacionalidade() {
+    const nacionalidade = prompt("Qual a sua nacionalidade?").toLowerCase();
+
     if (nacionalidade === "brasileira") {
-        console.log(nacionalidade);
+        console.log(`Vocé ${nacionalidade}`);
     } else if (nacionalidade === "argentina") {
-        console.log(nacionalidade);
+        console.log(`Vocé ${nacionalidade}`);
     } else if (nacionalidade === "uruguaia") {
-        console.log(nacionalidade);
+        console.log(`Vocé ${nacionalidade}`);
     } else if (nacionalidade === "chilena") {
-        console.log(nacionalidade);
+        console.log(`Vocé ${nacionalidade}`);
     } else if (nacionalidade === "colombiana") {
-        console.log(nacionalidade);
+        console.log(`Vocé ${nacionalidade}`);
     } else {
         console.log("Nacionalidade não encontrada!");
     }
 }
 
-const nacionalidade = prompt("Qual a sua nacionalidade?");
-verificarNacionalidade(nacionalidade.toLowerCase());
+verificarNacionalidade();
